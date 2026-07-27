@@ -1,7 +1,25 @@
 aid: humeo-inc
 name: Humeo, INC.
-description: Humeo, INC. is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Humeo, INC. is a San Francisco-based applied AI research lab focused on creative
+  intelligence, blending design, social science, and frontier AI research. Its products include
+  VideoClaw, a desktop creative production agent that transforms existing media and automates media
+  creation, and Studio, a web application for producing high-impact short-form video content. Humeo's
+  research spans creative attunement, taste modeling, universal media transformation, world models of
+  attention, and creative efficiency. The company is backed by 500 Global. As of this profile Humeo
+  publishes no public API, developer portal, or documentation; VideoClaw is in private alpha with
+  access granted by request.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://mission.humeo.com/img/humeo_vertical_black_header.svg
 url: https://raw.githubusercontent.com/api-evangelist/humeo-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Creative Intelligence
+- Generative Media
+- Video
+- Content Creation
+- Research Lab
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/humeo-inc-domain-security.yml
 - type: Website
   url: https://humeo.com
+- type: TermsOfService
+  url: https://humeo.com/terms
+- type: PrivacyPolicy
+  url: https://humeo.com/privacy
+- type: Careers
+  url: https://mission.humeo.com/roles
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
