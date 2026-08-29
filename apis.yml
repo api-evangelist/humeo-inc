@@ -8,6 +8,17 @@ description: Humeo, INC. is a San Francisco-based applied AI research lab focuse
   attention, and creative efficiency. The company is backed by 500 Global. As of this profile Humeo
   publishes no public API, developer portal, or documentation; VideoClaw is in private alpha with
   access granted by request.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
