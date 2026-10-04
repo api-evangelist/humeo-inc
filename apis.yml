@@ -1,5 +1,5 @@
 aid: humeo-inc
-name: Humeo, INC.
+name: Humeo
 description: Humeo, INC. is a San Francisco-based applied AI research lab focused on creative
   intelligence, blending design, social science, and frontier AI research. Its products include
   VideoClaw, a desktop creative production agent that transforms existing media and automates media
@@ -71,3 +71,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Humeo, INC.
